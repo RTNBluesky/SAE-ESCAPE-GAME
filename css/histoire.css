@@ -1,0 +1,141 @@
+body{
+    background-image: url("../images/histoire.jpeg");
+}
+
+button.button1 {
+    float:right;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+    text-decoration: none;
+}
+
+button.button2 {
+    float:right;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-size: cover;
+    color:rgb(255, 255, 255);
+    font-family: Helvetica;
+}
+
+h1{
+    font-size: 8em;
+    text-align: center;
+    width: 100%;
+    color:rgb(255, 255, 255);
+}
+
+p{
+    padding: 100px 100px;
+    font-size: 2em;
+    text-align: center;
+    margin-top: -12%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    body {
+        background-image: url("../images/index.jpeg");
+        background-size: 150%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width: 767px) {
+
+
+
+    #global {
+
+        width: 100%;
+
+        padding: 0px;
+
+    }
+
+
+
+    #menu-gauche {
+
+        width: 100%;
+
+    }
+
+
+
+    #contenu {
+
+        width: 100%;
+
+    }
+
+
+
+    #sidebar-droite {
+
+        width: 100%;
+
+    }
+
+
+
+
+
+}
+
+@media(min-width: 768px) and (max-width: 1388px) {
+
+
+
+    #global {
+
+        width: 100%;
+
+        padding: 0px;
+
+    }
+
+
+
+    #menu-gauche {
+
+        width: 100%;
+
+    }
+
+
+
+    #contenu {
+
+        width: 80%;
+
+    }
+
+
+
+}

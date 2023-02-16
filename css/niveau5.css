@@ -1,0 +1,86 @@
+body{
+    background-image: url("../images/niveau5.jpg");
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-image: url("../images/index.jpeg");
+        background-size: 150%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width: 767px) {
+
+
+
+    #global {
+
+        width: 100%;
+
+        padding: 0px;
+
+    }
+
+
+
+    #menu-gauche {
+
+        width: 100%;
+
+    }
+
+
+
+    #contenu {
+
+        width: 100%;
+
+    }
+
+
+
+    #sidebar-droite {
+
+        width: 100%;
+
+    }
+
+
+
+
+
+}
+
+@media(min-width: 768px) and (max-width: 1388px) {
+
+
+
+    #global {
+
+        width: 100%;
+
+        padding: 0px;
+
+    }
+
+
+
+    #menu-gauche {
+
+        width: 100%;
+
+    }
+
+
+
+    #contenu {
+
+        width: 80%;
+
+    }
+
+
+
+}
